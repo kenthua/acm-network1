@@ -5,7 +5,7 @@ metadata:
 subjects:
 - kind: ServiceAccount
   name: default
-  apiGroup: rbac.authorization.k8s.io
+  namespace: network1
 roleRef:
   kind: Role
   name: job-creator
